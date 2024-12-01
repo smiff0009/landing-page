@@ -1,9 +1,148 @@
+* {
+    font-family: roboto;
+}
+
+body {
+    padding: 0;
+}
+
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
 }
 
 .header-links {
     display: flex;
+    margin-left: auto;
     justify-content: center;
+    gap: 20px;
+}
+
+.hero-container {
+    background-color: #1F2937;
+    padding: 0 80px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 80px 0;
+}
+
+.placeholder {
+    border: 3px solid #3882F6;
+    height: 150px;
+    aspect-ratio: 1;
+    border-radius: 15px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero p, .header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.cta-button {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    border: 0px;
+    font-size: 18px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.card-text {
+    text-align: center;
+    width: 150px;
+    font-size: 18px;
+    color: grey;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 150px;
+}
+
+.citation {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 40px 80px;
+    margin: 40px 80px;
+}
+
+.cta-button-2 {
+    color: white;
+    background-color: #3882F6;
+    padding: 10px 20px;
+    border: 3px solid white;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.cta p {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    font-size: 18px;
+    padding: 30px;
+}
+
+h3 {
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
 }
